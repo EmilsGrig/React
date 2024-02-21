@@ -30,12 +30,12 @@ function DigitalClock() {
     return (number < 10 ? "0" : "") + number;
   }
 
-    return (
-      <div className="clock-container">
-        <div className="clock">
-          <span>{formatTime()}</span>
-        </div>
+  return (
+    <div className="clock-container">
+      <div className="clock">
+        <span>{formatTime()}</span>
       </div>
-    );
+    </div>
+  );
 }
 export default DigitalClock;

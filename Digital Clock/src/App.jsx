@@ -1,7 +1,7 @@
 import DigitalClock from './DigitalClock.jsx'
 
 function App() {
-  return (<DigitalClock />);
+  return (<DigitalClock/>);
 }
 
 export default App;
